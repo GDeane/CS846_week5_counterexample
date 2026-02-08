@@ -1,6 +1,6 @@
-A caveat for usage of "Guideline 1: Provide Project-Specific Examples of Code Summaries and Context for functions/files" is the case where the repository contains files with differing levels of access.
+Here I provide a counterexample where "Guideline 2: Explicitly Constrain Summary Length" would likely fail, as well as an up
 
-If there is an internal file and an API file for it then the LLm can be prone to leaking internal details and creating semantically similar documentation for the two even if the access levels, contexts, and functionalities differ.
+When there is
 
 Thus I propose a new idea as a standalone guideline and an exception to guideline 1.
 
